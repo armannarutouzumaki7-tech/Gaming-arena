@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LEVEL UP | Gaming Arena</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+:root{
+--green:#9cff00;
+--black:#050606;
+--card:#111515;
+--white:#ffffff;
+--gray:#999;
+}
+
+body{
+background:var(--black);
+color:white;
+font-family:'Rajdhani',sans-serif;
+}
+
+a{
+text-decoration:none;
+color:white;
+}
+
+button{
+cursor:pointer;
+font-family:inherit;
+}
+
+header{
+height:75px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 5%;
+background:#080a0a;
+border-bottom:1px solid #202525;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-family:'Orbitron',sans-serif;
+font-size:23px;
+font-weight:800;
+}
+
+.logo span{
+color:var(--green);
+}
+
+nav{
+display:flex;
+gap:30px;
+}
+
+nav a{
+font-size:16px;
+font-weight:700;
+transition:.3s;
+}
+
+nav a:hover{
+color:var(--green);
+}
+
+.login{
+border:1px solid var(--green);
+padding:9px 20px;
+color:var(--green);
+background:transparent;
+}
+
+.menu{
+display:none;
+font-size:25px;
+color:var(--green);
+}
+
+/* HERO */
+
+.hero{
+min-height:570px;
+display:flex;
+align-items:center;
+padding:70px 9%;
+background:
+linear-gradient(90deg,#050606 5%,rgba(0,0,0,.85
